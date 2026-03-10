@@ -29,8 +29,12 @@ insert into [Tables] (Number) values ('T2');
 insert into [Tables] (Number) values ('T3');
 insert into [Tables] (Number) values ('T4');
 
-insert into Meals ([Name], Price) values ('Dönər', '2.5');
+insert into Meals ([Name], Price) values ('Döner', '2.5');
 insert into Meals ([Name], Price) values ('Tantuni', '4');
 insert into Meals ([Name], Price) values ('Ayran', '1');
 insert into Meals ([Name], Price) values ('Içki', '1.5');
+
+insert into Orders (MealId, TableId) values (2, 1);
+insert into Orders (MealId, TableId) values (2, 2);
+insert into Orders (MealId, TableId) values (4, 2);
 
